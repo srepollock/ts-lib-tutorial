@@ -1,0 +1,42 @@
+{
+  "name": "ts-lib-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial for building and deploying a Typescript buildable suite",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "bundle": "rollup -c",
+    "test": "mocha"
+  },
+  "keywords": [
+    "typescript",
+    "rollup",
+    "babel",
+    "mocha",
+    "chai"
+  ],
+  "author": "Spencer Pollock <spencer@spollock.ca> (http://spollock.ca)",
+  "repository": "github:srepollock/ts-lib-tutorial",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-typescript2": "^0.12.0",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
+  },
+  "babel": {
+    "presets": [
+        ["env", {
+            "modules": false
+        }]
+    ]
+  }
+}
