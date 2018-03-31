@@ -13,7 +13,8 @@
     "rollup",
     "babel",
     "mocha",
-    "chai"
+    "chai",
+    "tutorial"
   ],
   "author": "Spencer Pollock <spencer@spollock.ca> (http://spollock.ca)",
   "repository": "github:srepollock/ts-lib-tutorial",
