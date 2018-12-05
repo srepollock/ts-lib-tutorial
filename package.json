@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-tutorial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tutorial for building and deploying a Typescript buildable suite",
   "main": "./src/index.ts",
   "scripts": {
